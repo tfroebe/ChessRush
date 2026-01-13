@@ -1,0 +1,71 @@
+# ----------------------
+# Python bytecode
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ----------------------
+# Virtual environments
+# ----------------------
+venv/
+.env/
+.env.local
+.venv/
+
+# ----------------------
+# Pytest / coverage
+# ----------------------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# OS-specific files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# IDE / Editor files
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# Build artifacts
+# ----------------------
+build/
+dist/
+*.egg-info/
+
+# ----------------------
+# Environment secrets
+# ----------------------
+*.env
+.env.*
+
+# ----------------------
+# Node (future frontend)
+# ----------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ----------------------
+# SQLite / local DB
+# ----------------------
+*.sqlite3
+
+# ----------------------
+# Stockfish binaries
+# ----------------------
+stockfish*
